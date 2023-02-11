@@ -2,6 +2,7 @@
 import { RouterView } from 'vue-router'
 import NavBarVue from './components/NavBar.vue'
 import { ref } from 'vue'
+import Footer from './components/Footer.vue';
 
 
 
@@ -16,13 +17,15 @@ function onClick() {
 
 <template>
   <v-app :theme="theme">
-    <NavBarVue :onClick="onClick"/>
+    <NavBarVue :onClick="onClick" />
 
     <v-main>
-      <v-container>
-        <RouterView />
-      </v-container>
+
+      <RouterView />
+
     </v-main>
+    <Footer />
+
   </v-app>
 </template>
 

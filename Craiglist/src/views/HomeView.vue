@@ -1,34 +1,14 @@
 <script setup>
+import HeroSection from '../components/HeroSection.vue';
+import CardsSection from '../components/CardsSection.vue';
+import NearBy from '../components/NearBy.vue';
 
 </script>
 
 <template>
   <main>
-    <div class="mb-4">@heroicons/vue</div>
-    <div class="mb-4">@heroicons/vue</div>
-    <div class="mb-4">@heroicons/vue</div>
-    <div class="mb-4">@heroicons/vue</div>
-    <div class="mb-4">@heroicons/vue</div>
-    <div class="mb-4">@heroicons/vue</div>
-    <div class="mb-4">@heroicons/vue</div>
-    <div class="mb-4">@heroicons/vue</div>
-    <div class="mb-4">@heroicons/vue</div>
-    <div class="mb-4">@heroicons/vue</div>
-    <div class="mb-4">@heroicons/vue</div>
-    <div class="mb-4">@heroicons/vue</div>
-    <div class="mb-4">@heroicons/vue</div>
-    <div class="mb-4">@heroicons/vue</div>
-    <div class="mb-4">@heroicons/vue</div>
-    <div class="mb-4">@heroicons/vue</div>
-    <div class="mb-4">@heroicons/vue</div>
-    <div class="mb-4">@heroicons/vue</div>
-    <div class="mb-4">@heroicons/vue</div>
-    <div class="mb-4">@heroicons/vue</div>
-    <div class="mb-4">@heroicons/vue</div>
-    <div class="mb-4">@heroicons/vue</div>
-    <div class="mb-4">@heroicons/vue</div>
-    <div class="mb-4">@heroicons/vue</div>
-    <div class="mb-4">@heroicons/vue</div>
-    <div class="mb-4">@heroicons/vue</div>
+    <HeroSection />
+    <CardsSection />
+    <NearBy />
   </main>
 </template>
